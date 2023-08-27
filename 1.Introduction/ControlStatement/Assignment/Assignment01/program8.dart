@@ -24,7 +24,7 @@ Program 8 :
 void main(){
     int number= 15;
 
-    if(number % 3==0 && number % 3==0){
+    if(number % 3==0 && number % 5==0){
         print("Divisible by both");
     }
 
