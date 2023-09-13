@@ -8,7 +8,7 @@ void main(){
     
 
     stdout.write("Enter the name: ");
-    String name = stdin.readLineSync()!;
+    String? name = stdin.readLineSync()!;
     print("Name: ${name}");
 
     stdout.write("Enter the age: ");
