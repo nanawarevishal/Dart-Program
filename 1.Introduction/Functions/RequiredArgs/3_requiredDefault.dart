@@ -13,7 +13,7 @@ void playerInfo({String team="India",required String name, required int jerNo}){
 
 void main(){
 
-    // playerInfo("India", name: null, jerNo: null);
+    playerInfo("India", name: null, jerNo: null);
     playerInfo(team: "IND", jerNo: 18,name: "Virat");
 
 }
