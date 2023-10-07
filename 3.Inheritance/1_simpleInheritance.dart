@@ -27,7 +27,7 @@ class Child extends Parent{
     void printData(){
         print(y);
         print(str2);
-    }2
+    }
 }
 
 void main(){
