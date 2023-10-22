@@ -3,8 +3,12 @@
 
 abstract class Developer{
 
-    factory Developer(String devType){
+    Developer(){
         
+    }
+
+    factory Developer.conste(String devType){
+
         if(devType == "Backend")
             return Backend();
 
@@ -44,7 +48,7 @@ class Mobile implements Developer{
 
 void main(){
 
-    Developer obj = new Developer("Backend");
+    Developer obj = new Developer.conste("Backend");
     obj.devLang();
 }
 
