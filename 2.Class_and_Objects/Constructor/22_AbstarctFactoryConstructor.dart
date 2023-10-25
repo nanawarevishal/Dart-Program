@@ -4,7 +4,7 @@
 abstract class Developer{
 
     Developer(){
-        
+
     }
 
     factory Developer.conste(String devType){
@@ -53,10 +53,3 @@ void main(){
 }
 
 
-/*
-
-Output:
-    22_AbstarctFactoryConstructor.dart:14:7: Error: The superclass, 'Developer', has no unnamed constructor that takes no arguments.    
-    class Backend extends Developer{
-      ^
-*/
